@@ -7,11 +7,7 @@ def second_challenge
   }
 
   #code your solution here!
-  new_groceries = []
-  groceries.each do |key, value|
-    new_groceries << value
-  end
-  new_groceries
-  
+  groceries.map.value do |key, value|
+  puts "#{value}"
 
 end
