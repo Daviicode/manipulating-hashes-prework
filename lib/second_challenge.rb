@@ -7,7 +7,6 @@ def second_challenge
   }
 
   #code your solution here!
-  groceries.map.value do |key, value|
-  puts "#{value}"
+  groceries.map.value
 
 end
